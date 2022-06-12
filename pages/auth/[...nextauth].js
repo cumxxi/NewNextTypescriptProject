@@ -1,7 +1,7 @@
 import NextAuth from "next-auth/next";
 import RedditProvider from "next-auth/providers/reddit";
 
-export default NewAuth({
+export default NextAuth({
   //Bir veya daha fazla kimlik doğrulama sağlayıcısı yapılandırma
   providers: [
     RedditProvider({
